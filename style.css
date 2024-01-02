@@ -325,6 +325,12 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.experience-sub-title:hover {
+  text-decoration: underline; /* Maintain underlining on hover */
+  color: rgb(85, 85, 85); /* Maintain color on hover */
 }
 
 .experience-details-container {
@@ -433,3 +439,5 @@ footer p {
 #profile-picture{
   border-radius: 50%;
 }
+
+
